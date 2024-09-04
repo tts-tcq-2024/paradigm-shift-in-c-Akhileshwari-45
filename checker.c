@@ -7,7 +7,7 @@ int temp_in_range(float temp) {
 }
  
 // Function to check if temperature is within range
-int check_temp(float temptemp) {
+int check_temp(float temp) {
     int isInRange = temp_in_range(temp);
     if (!isInRange) {
         printf("temperature out of range\n");
