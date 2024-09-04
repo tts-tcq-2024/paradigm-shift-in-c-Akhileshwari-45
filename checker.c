@@ -50,7 +50,7 @@ int evaluate_checks(int tempCheck, int socCheck, int chargeRateCheck) {
  
 // Combined function to check all parameters
 int batteryIsOk(float temperature, float soc, float chargeRate) {
-    int tempCheck = check_temperature(temperature);
+    int tempCheck = check_temp(temperature);
     int socCheck = check_soc(soc);
     int chargeRateCheck = check_chargeRate(chargeRate);
  
