@@ -11,7 +11,7 @@ int chargerate(float charge)
 }
 int socrange(float soc,float charge)
 {
-  int reuslt = 1;
+  int result = 1;
   if(soc<20 || soc>80)
   {
      printf("State of Charge out of range!\n");
