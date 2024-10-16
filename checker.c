@@ -3,7 +3,6 @@
 
 int batteryIsOk(float temperature, float soc, float chargeRate)
 {
-
   battery_status result1 = normal;
   battery_status result2 = normal;
   battery_status result3 = normal;
