@@ -1,6 +1,6 @@
 #include "common_util.h"
 
-float calculate_tolerance(float range,float tolerance)
+float calculate_tolerance(float range,int tolerance)
 {
     return ((range/100)*tolerance);
 }
