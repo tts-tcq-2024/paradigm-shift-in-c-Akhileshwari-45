@@ -1,4 +1,5 @@
 #include "common_util.h"
+#include "battery_parameters_check.h"
 
 //battrey charge check
 battery_status check_battery_chargerate_warning(float value,float range)
