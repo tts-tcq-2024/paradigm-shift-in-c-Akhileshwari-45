@@ -74,6 +74,3 @@ Example: If the SoC needs to be between 20 and 80, the warning-tolerance is 5% o
 
 
 Same for Temperature and Charge-rate.
-
-
-Keep in mind: Though we are starting with warning levels for all parameters, customers may give feedback to have warnings only for some parameters and not others. Minimize the change needed for such 'tuning'.
