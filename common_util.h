@@ -16,7 +16,7 @@ typedef enum
     normal
 }battery_status;
 
-float calculate_tolerance(float range,float tolerance);
+float calculate_tolerance(float range,int tolerance);
 bool check_min_range(float value, float range);
 bool check_max_range(float value,float range);
 battery_status check_battery_warning(float value,float *range_arr);
