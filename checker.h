@@ -1,5 +1,5 @@
-#ifndef COMMON_UTIL_H
-#define COMMON_UTIL_H
+#ifndef CHECKER_H
+#define CHECKER_H
 
 #include<stdio.h>
 #include <stdbool.h>
