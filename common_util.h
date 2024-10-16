@@ -21,5 +21,6 @@ bool check_min_range(float value, float range);
 bool check_max_range(float value,float range);
 battery_status check_battery_warning(float value,float *range_arr);
 battery_status check_battery_error(float value, float *range_arr);
+void message_logger(char *str,float value, battery_status state);
 
 #endif
